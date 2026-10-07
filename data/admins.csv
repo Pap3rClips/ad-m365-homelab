@@ -1,0 +1,3 @@
+SamAccountName,DisplayName,Owner,Groups
+adm-igarnier,ADM Ines Garnier,igarnier,@DomainAdmins;GG-Admins-Postes
+adm-lfontaine,ADM Lea Fontaine,lfontaine,GG-Admins-Postes

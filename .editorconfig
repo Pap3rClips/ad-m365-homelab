@@ -1,0 +1,19 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Windows PowerShell 5.1 lit les fichiers sans BOM en ANSI : les accents seraient corrompus
+[*.{ps1,psm1,psd1}]
+charset = utf-8-bom
+end_of_line = crlf
+
+[*.md]
+charset = utf-8
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2

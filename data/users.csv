@@ -1,0 +1,13 @@
+GivenName,Surname,Department,Title,Office,Groups,M365
+Camille,Moreau,Direction,Directrice generale,Pontoise,GG-Direction,true
+Julien,Lefevre,Direction,Directeur administratif et financier,Pontoise,GG-Direction,true
+Ines,Garnier,IT,Responsable informatique,Pontoise,GG-IT,true
+Theo,Rousseau,IT,Technicien support,Pontoise,GG-IT,true
+Lea,Fontaine,IT,Administratrice systemes,Pontoise,GG-IT,true
+Hugo,Chevalier,Comptabilite,Comptable,Cergy,GG-Comptabilite,true
+Manon,Robin,Comptabilite,Assistante comptable,Cergy,GG-Comptabilite,true
+Lucas,Girard,Comptabilite,Controleur de gestion,Cergy,GG-Comptabilite,false
+Chloe,Bonnet,Commercial,Responsable commerciale,Cergy,GG-Commercial,true
+Nathan,Dupont,Commercial,Commercial terrain,Cergy,GG-Commercial,true
+Sarah,Lambert,Commercial,Charge de clientele,Cergy,GG-Commercial,false
+Antoine,Mercier,Commercial,Commercial sedentaire,Cergy,GG-Commercial,false

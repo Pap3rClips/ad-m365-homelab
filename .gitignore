@@ -1,0 +1,12 @@
+# Secrets et sorties générées à l'exécution — ne jamais versionner
+output/
+logs/
+*.cab
+MDMDiag/
+
+# Divers
+*.tmp
+Thumbs.db
+.DS_Store
+.vscode/*
+!.vscode/settings.json
