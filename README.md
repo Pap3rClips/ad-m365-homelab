@@ -132,23 +132,6 @@ Avant tout, adapte `config/lab.psd1` : nom du tenant, chemins des ISO, carte ré
 - **Graph sans SDK lourd.** Seul `Microsoft.Graph.Authentication` est requis. Chaque appel `Invoke-MgGraphRequest` correspond à un point de terminaison REST documenté.
 
 ---
-
-## Captures d'écran
-
-Les captures attendues (nom de fichier, écran à montrer, script qui produit l'état) sont listées dans [docs/screenshots/README.md](docs/screenshots/README.md). Les rapports HTML générés par les scripts `10`, `11` et `27` complètent ces captures avec des preuves textuelles horodatées.
-
----
-
-## Inspirations
-
-Ce dépôt a été conçu à partir des approches de plusieurs labs open source. Aucun code ni aucune image n'en a été repris :
-
-- [Ofendor/Service-Desk-Support-Lab](https://github.com/Ofendor/Service-Desk-Support-Lab) : scripts numérotés par étape, GPO de mots de passe et de lecteurs mappés
-- [j5s/adlab](https://github.com/j5s/adlab) : déploiement AD sans interaction en PowerShell
-- [mbusbee505/Intune-Lab](https://github.com/mbusbee505/Intune-Lab) : déroulé tenant → groupes → licences → enrôlement
-- [JC-Logic/ConditionalAccessBaseline](https://github.com/JC-Logic/ConditionalAccessBaseline) : nommage des stratégies d'accès conditionnel
-- [cmcabrera-tech](https://github.com/cmcabrera-tech) et [Pontipek](https://github.com/Pontipek) : séparation AD on-prem / Entra-Intune en portfolio
-
 ## Licence
 
 [MIT](LICENSE). Environnement de laboratoire : ne pas appliquer tel quel en production sans revue.
